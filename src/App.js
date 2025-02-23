@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import {
   BrowserRouter as Router,
@@ -15,9 +15,10 @@ import LoginPage from './LoginPage/LoginPage'
 
 function App() {
   return (
+    
     <Router>
-     <Menu/>
-     <Hero/>
+      <Menu/>
+      <Hero/>
      <div className="mainContainer">
       <Switch>
         <Route path="/about">
@@ -30,8 +31,8 @@ function App() {
           <HomePage/>
         </Route>
       </Switch>
+      
      </div>
-     <HomePage/>
      <Footer/>
     </Router>
   );

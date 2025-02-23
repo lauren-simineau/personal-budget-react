@@ -423,9 +423,16 @@ div.page-area p {
   font-size: 2em;
 }
 
+div.page-area {
+  width: 100%;
+}
+
 #myChart2 {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+}
+
+div.page-area p {
+  font-size: 2em;
 }
 
 svg {
@@ -460,7 +467,7 @@ main {
 }
 
 .page-area {
-  max-width: 768px;
+  max-width: 1300px;
   display: inline-block;
 }
 
@@ -477,6 +484,12 @@ footer {
   margin-top: -44px;
 }
 
+
+.chart-container {
+  width: 400px;
+  height: 400px;
+}
+
 .skip:focus {
   margin-top: 0;
 }
@@ -485,13 +498,15 @@ footer {
   text-align: center;
 }
 
+
 main article {
   display: inline-block;
-  width: 100%;
-  max-width: 340px;
+  width: 45%;
+  max-width: 600px;
   text-align: justify;
   margin: 20px;
 }
+
 
 @media screen and (min-width: 768px) {
   main article {
